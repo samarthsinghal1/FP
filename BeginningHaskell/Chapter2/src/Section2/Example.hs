@@ -1,4 +1,4 @@
 module Section2.Example where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+firstOrEmpty :: [[Char]] -> [Char]
+firstOrEmpty lst = if not (null lst) then head lst else "empty"

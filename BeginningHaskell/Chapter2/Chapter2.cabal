@@ -19,7 +19,7 @@ maintainer:
 extra-source-files: CHANGELOG.md
 
 library
-    exposed-modules:  Section2.Example
+    exposed-modules:  Section2.Example, Section4.TimeMachine
 
     -- Modules included in this library but not exported.
     -- other-modules:
